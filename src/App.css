@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-info {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  background-image: url(/fitness_women.jpg);
+  background-size: cover;
+}
+
+.welcome {
+  padding: 50px 100px;
+  margin-top: -140px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+}
+.welcome h1 {
+  color: #333;
+}
+.welcome .btn-secondary {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #013f7e;
+}
+.welcome .btn:focus {
+  box-shadow: none;
+}
+
+.col-md-6 {
+  mask-image: url(/Single\ man.jpg);
+  height: auto;
+  width: fit-content;
+}
+
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#about .col-md-6 {
+  padding: 20px 10px;
+}
+#about h3 {
+  margin: 20px auto;
+}
+
+#testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#testimonials .col-md-4 {
+  padding: 10px 30px;
+}
+#testimonials img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-left: -30px;
+  border: 5px solid #fff;
+  margin-bottom: 30px;
+}
+#testimonials span {
+  color: #013f7e;
+  font-weight: 600;
+  font-size: 16px;
+}
+.review {
+  font-size: 16px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.review .bi-twitter {
+  color: #013f7e;
 }
